@@ -34,10 +34,19 @@ A real-time forecasting system that predicts conference registration numbers bas
    - Type: `python --version`
    - You should see something like "Python 3.x.x"
 
-### Step 2: Download the System
+### Step 2: Clone the Repository
 
-1. **Download all files** to a folder on your computer
-2. **Make sure you have these files:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/registration-forcasting.git
+   ```
+   
+2. **Navigate to the project folder:**
+   ```bash
+   cd registration-forcasting
+   ```
+
+3. **Verify you have these files:**
    - `realtime_conference_forecasting.ipynb` (the main system)
    - `sample_data.csv` (example registration data)
    - `CONF. DATASET/` folder (historical data)
@@ -45,19 +54,14 @@ A real-time forecasting system that predicts conference registration numbers bas
 
 ### Step 3: Set Up Your Environment
 
-1. **Open Terminal/Command Prompt**
-2. **Navigate to your project folder:**
-   ```bash
-   cd "path/to/your/registration-forcasting folder"
-   ```
-   Example: `cd "/Users/yourname/Desktop/registration-forcasting"`
+1. **Make sure you're in the project folder** (from Step 2)
 
-3. **Create a virtual environment:**
+2. **Create a virtual environment:**
    ```bash
    python -m venv .venv
    ```
 
-4. **Activate the environment:**
+3. **Activate the environment:**
    
    **On Mac/Linux:**
    ```bash
@@ -71,7 +75,7 @@ A real-time forecasting system that predicts conference registration numbers bas
    
    You should see `(.venv)` at the start of your command line.
 
-5. **Install required packages:**
+4. **Install required packages:**
    ```bash
    pip install jupyter pandas numpy matplotlib scipy scikit-learn
    ```
