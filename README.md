@@ -48,9 +48,9 @@ A real-time forecasting system that predicts conference registration numbers bas
 1. **Open Terminal/Command Prompt**
 2. **Navigate to your project folder:**
    ```bash
-   cd "path/to/your/CAD Assessment folder"
+   cd "path/to/your/registration-forcasting folder"
    ```
-   Example: `cd "/Users/yourname/Desktop/CAD Assessment"`
+   Example: `cd "/Users/yourname/Desktop/registration-forcasting"`
 
 3. **Create a virtual environment:**
    ```bash
@@ -157,7 +157,7 @@ As new registrations come in, update your forecasts:
 ## 📁 File Structure
 
 ```
-CAD Assessment/
+registration-forcasting/
 ├── realtime_conference_forecasting.ipynb  # Main system
 ├── sample_data.csv                         # Your registration data
 ├── README.md                               # This guide
