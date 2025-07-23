@@ -182,7 +182,7 @@ registration-forcasting/
 
 ### "Module not found" errors
 - Make sure your virtual environment is activated (you should see `.venv`)
-- Run: `pip install jupyter pandas numpy matplotlib scipy scikit-learn`
+- Run: `pip install jupyter pandas numpy matplotlib scipy`
 
 ### "File not found" errors
 - Make sure you're in the correct folder
